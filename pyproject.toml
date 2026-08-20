@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luna-benchmarks"
+version = "0.1.0"
+description = "Reproducible ALFWorld, TextCraft, and Finance Agent experiment harness"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = "LicenseRef-Publication-Gate"
+license-files = ["LICENSE"]
+authors = [{name = "LUNA research team"}]
+dependencies = [
+  "pydantic>=2.8,<3",
+  "PyYAML>=6.0.2,<7",
+]
+
+[project.optional-dependencies]
+storage = ["pymongo>=4.8,<5", "redis>=5.0,<6"]
+openai = ["openai>=2.8,<4"]
+alfworld = [
+  "alfworld>=0.3.5,<0.5",
+  "aiofiles>=24,<25",
+  "termcolor>=2.4,<3",
+  "tqdm>=4.66,<5",
+]
+textcraft = []
+finance = [
+  "aiohttp>=3.10,<4",
+  "beautifulsoup4>=4.12,<5",
+  "tiktoken>=0.8,<1",
+  "exa-py>=1.7,<2",
+]
+dev = [
+  "build>=1.2,<2",
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.24,<1",
+]
+all = [
+  "pymongo>=4.8,<5",
+  "redis>=5.0,<6",
+  "openai>=2.8,<4",
+  "alfworld>=0.3.5,<0.5",
+  "aiofiles>=24,<25",
+  "termcolor>=2.4,<3",
+  "tqdm>=4.66,<5",
+  "aiohttp>=3.10,<4",
+  "beautifulsoup4>=4.12,<5",
+  "tiktoken>=0.8,<1",
+  "exa-py>=1.7,<2",
+]
+
+[project.scripts]
+luna-benchmark = "luna.benchmarks.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["luna*"]
+
+[tool.setuptools.package-data]
+"luna.benchmarks.textcraft" = ["data/recipes/*.json"]
+"luna.benchmarks.alfworld" = ["base_config.yaml"]
+"luna.benchmarks.finance_agent" = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+asyncio_mode = "auto"

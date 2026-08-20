@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this benchmark harness, cite the associated LUNA paper and the benchmark sources listed below."
+title: "LUNA Benchmark Experiments"
+type: software
+version: 0.1.0
+date-released: 2026-08-17
+authors:
+  - name: "LUNA research team"
+repository-code: "https://github.com/REPLACE_WITH_OWNER/luna-public-release"
+preferred-citation:
+  type: article
+  title: "REPLACE WITH FINAL LUNA PAPER TITLE"
+  authors:
+    - name: "REPLACE WITH FINAL AUTHOR LIST"
+  year: 2026
+
