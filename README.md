@@ -5,7 +5,7 @@ ALFWorld, TextCraft, and the Vals AI Finance Agent benchmark. It preserves four
 execution methods: `react`, per-case specialized cyclic graphs (`spec-cyc`), a
 versioned reusable generalized graph (`gen-cyc`), and per-case dependency DAGs
 with retry (`depdag-retry`). It contains no history, secrets, browser sessions,
-MongoDB dumps, private notebooks, or private application code from LUNA.
+MongoDB dumps, private notebooks, or private application code.
 
 > **License:** this repository is licensed under the MIT License; see `LICENSE`.
 > `CITATION.cff` contains owner-controlled paper metadata. Third-party code and
