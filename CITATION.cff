@@ -1,16 +1,17 @@
 cff-version: 1.2.0
-message: "If you use this benchmark harness, cite the associated LUNA paper and the benchmark sources listed below."
-title: "LUNA Benchmark Experiments"
+message: "If you use this benchmark harness, cite the associated Cyclic Task Graphs paper and the benchmark sources listed below."
+title: "Cyclic Task Graphs Benchmark"
 type: software
+license: MIT
 version: 0.1.0
 date-released: 2026-08-17
 authors:
-  - name: "LUNA research team"
-repository-code: "https://github.com/REPLACE_WITH_OWNER/luna-public-release"
+  - name: "Luay Gharzeddine and Samer Saab Jr"
+repository-code: "https://github.com/luaygz/cyclic_task_graphs"
 preferred-citation:
   type: article
-  title: "REPLACE WITH FINAL LUNA PAPER TITLE"
+  title: "Complete Cyclic Subtask Graphs for Tool-Using LLM Agents: Flexibility, Cost, and Bottlenecks in Long-Horizon Workflows"
   authors:
-    - name: "REPLACE WITH FINAL AUTHOR LIST"
+    - name: "Luay Gharzeddine and Samer Saab Jr"
   year: 2026
 

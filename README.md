@@ -7,11 +7,9 @@ versioned reusable generalized graph (`gen-cyc`), and per-case dependency DAGs
 with retry (`depdag-retry`). It contains no history, secrets, browser sessions,
 MongoDB dumps, private notebooks, or private application code from LUNA.
 
-> **Publication gate:** the copyright holders have not selected the project
-> license. `LICENSE` intentionally grants no rights and must be replaced before
-> publication. `CITATION.cff` also contains owner-controlled paper metadata
-> placeholders. Third-party code and data retain the licenses documented in
-> `THIRD_PARTY_NOTICES.md`.
+> **License:** this repository is licensed under the MIT License; see `LICENSE`.
+> `CITATION.cff` contains owner-controlled paper metadata. Third-party code and
+> data retain the licenses documented in `THIRD_PARTY_NOTICES.md`.
 
 ## Quick start
 
