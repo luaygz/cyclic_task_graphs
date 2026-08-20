@@ -1,0 +1,12 @@
+benchmark: textcraft
+mode: gen-cyc
+split: test
+depth: 3
+graph_manifest: configs/graphs/textcraft_generalized_v1.json
+output_dir: outputs/paper/textcraft/depth3/gen-cyc
+tool_limit: 50
+subtask_tool_limit: 5
+retry_limit: 2
+storage_enabled: true
+model: {provider: openai, executor_alias: executor, executor_model: gpt-4o-mini, planner_alias: planner, planner_model: gpt-4o-mini, router_alias: router, router_model: gpt-4o-mini, judge_alias: judge, judge_model: gpt-4o-mini, temperature: 0.0, reasoning_effort: null}
+

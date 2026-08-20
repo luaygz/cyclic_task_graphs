@@ -1,0 +1,9 @@
+benchmark: finance_agent
+mode: react
+split: test
+output_dir: outputs/paper/finance_agent/react
+tool_limit: 20
+subtask_tool_limit: 20
+storage_enabled: true
+model: {provider: openai, executor_alias: executor, executor_model: gpt-4o-mini, planner_alias: planner, planner_model: gpt-4o-mini, router_alias: router, router_model: gpt-4o-mini, judge_alias: judge, judge_model: gpt-4o-mini, temperature: 0.0, reasoning_effort: null}
+

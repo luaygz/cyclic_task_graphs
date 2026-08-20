@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "benchmark": "finance_agent",
+  "split": "train",
+  "depth": null,
+  "shuffle_seed": 42,
+  "seeds": [
+    25,
+    23,
+    19,
+    11,
+    4,
+    45,
+    26,
+    9,
+    29,
+    16,
+    31,
+    21,
+    12,
+    3,
+    39
+  ],
+  "source_commit": "153bfc03716be20757e7d7b4480b80c0bcc3025d"
+}

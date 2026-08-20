@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "benchmark": "textcraft",
+  "split": "test",
+  "depth": 4,
+  "shuffle_seed": null,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source_commit": "153bfc03716be20757e7d7b4480b80c0bcc3025d"
+}

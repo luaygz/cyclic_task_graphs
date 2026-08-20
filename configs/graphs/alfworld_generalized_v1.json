@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "alias": "graph.alfworld.generalized",
+  "version": "1.0.0",
+  "benchmark": "alfworld",
+  "graph_type": "cyclic",
+  "entrypoint": "explore",
+  "subtasks": [
+    {
+      "id": "explore",
+      "title": "Explore and localize",
+      "agent_alias": "agent.alfworld_select_command",
+      "tool_aliases": ["tool.alfworld_select_command"],
+      "prompt": "Use admissible navigation, opening, looking, and examination commands to find the exact numbered target and destination.",
+      "success_criterion": "The next required target object or receptacle is localized.",
+      "dependencies": [],
+      "retry_limit": 0
+    },
+    {
+      "id": "manipulate",
+      "title": "Acquire and transform",
+      "agent_alias": "agent.alfworld_select_command",
+      "tool_aliases": ["tool.alfworld_select_command"],
+      "prompt": "Acquire the target and perform any required cleaning, heating, cooling, slicing, or lighting action.",
+      "success_criterion": "The held object has the state required by the task.",
+      "dependencies": [],
+      "retry_limit": 0
+    },
+    {
+      "id": "place",
+      "title": "Place and verify",
+      "agent_alias": "agent.alfworld_select_command",
+      "tool_aliases": ["tool.alfworld_select_command"],
+      "prompt": "Move the exact numbered object to the required receptacle and check environment completion.",
+      "success_criterion": "The environment reports task completion.",
+      "dependencies": [],
+      "retry_limit": 0
+    }
+  ],
+  "edges": [
+    {"source": "explore", "target": "manipulate", "condition": "target localized"},
+    {"source": "manipulate", "target": "place", "condition": "object ready"},
+    {"source": "place", "target": "explore", "condition": "task incomplete"}
+  ],
+  "metadata": {"dataset": "eval_out_of_distribution", "source_commit": "153bfc03716be20757e7d7b4480b80c0bcc3025d"}
+}
+

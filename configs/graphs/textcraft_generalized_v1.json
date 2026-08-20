@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "alias": "graph.textcraft.generalized",
+  "version": "1.0.0",
+  "benchmark": "textcraft",
+  "graph_type": "cyclic",
+  "entrypoint": "inventory",
+  "subtasks": [
+    {
+      "id": "inventory",
+      "title": "Inspect inventory and recipe dependencies",
+      "agent_alias": "agent.textcraft_select_command",
+      "tool_aliases": ["tool.textcraft_inventory"],
+      "prompt": "Inspect current inventory and identify the next missing dependency in the supplied recipe graph.",
+      "success_criterion": "A concrete missing raw material or craftable intermediate is identified.",
+      "dependencies": [],
+      "retry_limit": 0
+    },
+    {
+      "id": "gather",
+      "title": "Gather raw materials",
+      "agent_alias": "agent.textcraft_select_command",
+      "tool_aliases": ["tool.textcraft_get_item"],
+      "prompt": "Get enough non-craftable raw material for every remaining recipe batch.",
+      "success_criterion": "The required raw material is present in sufficient quantity.",
+      "dependencies": [],
+      "retry_limit": 0
+    },
+    {
+      "id": "craft",
+      "title": "Craft intermediates and target",
+      "agent_alias": "agent.textcraft_select_command",
+      "tool_aliases": ["tool.textcraft_craft"],
+      "prompt": "Execute one supplied crafting command whose ingredients are already available.",
+      "success_criterion": "An intermediate or the target is crafted without an invalid recipe.",
+      "dependencies": [],
+      "retry_limit": 0
+    }
+  ],
+  "edges": [
+    {"source": "inventory", "target": "gather", "condition": "missing raw material"},
+    {"source": "gather", "target": "craft", "condition": "materials ready"},
+    {"source": "craft", "target": "inventory", "condition": "target incomplete"}
+  ],
+  "metadata": {"source_commit": "153bfc03716be20757e7d7b4480b80c0bcc3025d"}
+}
+

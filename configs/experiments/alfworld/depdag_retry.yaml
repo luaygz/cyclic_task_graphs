@@ -1,0 +1,10 @@
+benchmark: alfworld
+mode: depdag-retry
+split: eval_out_of_distribution
+output_dir: outputs/paper/alfworld/depdag-retry
+tool_limit: 75
+subtask_tool_limit: 15
+retry_limit: 2
+storage_enabled: true
+model: {provider: openai, executor_alias: executor, executor_model: gpt-4o-mini, planner_alias: planner, planner_model: gpt-4o-mini, router_alias: router, router_model: gpt-4o-mini, judge_alias: judge, judge_model: gpt-4o-mini, temperature: 0.0, reasoning_effort: null}
+

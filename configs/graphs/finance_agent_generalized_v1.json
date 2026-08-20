@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "alias": "graph.finance_agent.generalized",
+  "version": "1.0.0",
+  "benchmark": "finance_agent",
+  "graph_type": "cyclic",
+  "entrypoint": "research",
+  "subtasks": [
+    {
+      "id": "research",
+      "title": "Locate authoritative evidence",
+      "agent_alias": "agent.finance_agent_select_command",
+      "tool_aliases": ["tool.finance_agent_web_search", "tool.finance_agent_edgar_search"],
+      "prompt": "Search for primary company or SEC sources relevant to the dated financial question.",
+      "success_criterion": "At least one authoritative source URL or filing is identified.",
+      "dependencies": [],
+      "retry_limit": 0
+    },
+    {
+      "id": "retrieve",
+      "title": "Retrieve and analyze evidence",
+      "agent_alias": "agent.finance_agent_select_command",
+      "tool_aliases": ["tool.finance_agent_parse_html", "tool.finance_agent_retrieve_information"],
+      "prompt": "Parse selected evidence and retrieve the exact facts, dates, units, and calculations needed by the question.",
+      "success_criterion": "The stored evidence supports every material part of the answer.",
+      "dependencies": [],
+      "retry_limit": 0
+    },
+    {
+      "id": "answer",
+      "title": "Synthesize and submit",
+      "agent_alias": "agent.finance_agent_select_command",
+      "tool_aliases": ["tool.finance_agent_final_answer"],
+      "prompt": "Give a concise answer with exact figures and source URLs, then submit it once.",
+      "success_criterion": "A non-empty sourced answer is submitted for judging.",
+      "dependencies": [],
+      "retry_limit": 0
+    }
+  ],
+  "edges": [
+    {"source": "research", "target": "retrieve", "condition": "source found"},
+    {"source": "retrieve", "target": "answer", "condition": "evidence sufficient"},
+    {"source": "answer", "target": "research", "condition": "evidence insufficient"}
+  ],
+  "metadata": {"max_end_date": "2025-04-07", "source_commit": "153bfc03716be20757e7d7b4480b80c0bcc3025d"}
+}
+
