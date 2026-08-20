@@ -1,4 +1,4 @@
-# LUNA benchmark experiments
+# Complete cyclic subtask graphs benchmark experiments
 
 This standalone repository contains the public experiment harness for
 ALFWorld, TextCraft, and the Vals AI Finance Agent benchmark. It preserves four
