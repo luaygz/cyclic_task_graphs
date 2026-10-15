@@ -1,0 +1,10 @@
+# A1 main comparison (Table 2): ReAct on ALFWorld (valid_unseen), no n-shot, all roles gpt-4o-mini.
+name: a1_alfworld_react
+benchmark: alfworld
+alfworld_split: valid_unseen
+split: test
+controller: react
+executors: generalist
+models:
+  executor: gpt-4o-mini
+repeats: 3

@@ -1,0 +1,2335 @@
+{
+  "benchmark": "textcraft",
+  "variant": "textcraft_depth2",
+  "seed": 42,
+  "instances": [
+    {
+      "id": "acacia_boat",
+      "split": "test",
+      "meta": {
+        "goal": "acacia_boat",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_button",
+      "split": "train",
+      "meta": {
+        "goal": "acacia_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_door",
+      "split": "test",
+      "meta": {
+        "goal": "acacia_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_fence",
+      "split": "test",
+      "meta": {
+        "goal": "acacia_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_fence_gate",
+      "split": "train",
+      "meta": {
+        "goal": "acacia_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_pressure_plate",
+      "split": "train",
+      "meta": {
+        "goal": "acacia_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_sign",
+      "split": "train",
+      "meta": {
+        "goal": "acacia_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_slab",
+      "split": "test",
+      "meta": {
+        "goal": "acacia_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "acacia_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "acacia_trapdoor",
+      "split": "train",
+      "meta": {
+        "goal": "acacia_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "andesite",
+      "split": "test",
+      "meta": {
+        "goal": "andesite",
+        "depth": 2
+      }
+    },
+    {
+      "id": "armor_stand",
+      "split": "test",
+      "meta": {
+        "goal": "armor_stand",
+        "depth": 2
+      }
+    },
+    {
+      "id": "arrow",
+      "split": "test",
+      "meta": {
+        "goal": "arrow",
+        "depth": 2
+      }
+    },
+    {
+      "id": "barrel",
+      "split": "test",
+      "meta": {
+        "goal": "barrel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "beehive",
+      "split": "test",
+      "meta": {
+        "goal": "beehive",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_boat",
+      "split": "test",
+      "meta": {
+        "goal": "birch_boat",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_button",
+      "split": "test",
+      "meta": {
+        "goal": "birch_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_door",
+      "split": "test",
+      "meta": {
+        "goal": "birch_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_fence",
+      "split": "test",
+      "meta": {
+        "goal": "birch_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_fence_gate",
+      "split": "test",
+      "meta": {
+        "goal": "birch_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "birch_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_sign",
+      "split": "test",
+      "meta": {
+        "goal": "birch_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_slab",
+      "split": "train",
+      "meta": {
+        "goal": "birch_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "birch_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "birch_trapdoor",
+      "split": "train",
+      "meta": {
+        "goal": "birch_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "black_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "black_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "black_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "black_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "black_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "black_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "black_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "black_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "black_wool",
+      "split": "test",
+      "meta": {
+        "goal": "black_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blast_furnace",
+      "split": "test",
+      "meta": {
+        "goal": "blast_furnace",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blue_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "blue_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blue_ice",
+      "split": "train",
+      "meta": {
+        "goal": "blue_ice",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blue_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "blue_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blue_stained_glass_pane",
+      "split": "train",
+      "meta": {
+        "goal": "blue_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blue_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "blue_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "blue_wool",
+      "split": "test",
+      "meta": {
+        "goal": "blue_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "bone_block",
+      "split": "train",
+      "meta": {
+        "goal": "bone_block",
+        "depth": 2
+      }
+    },
+    {
+      "id": "book",
+      "split": "train",
+      "meta": {
+        "goal": "book",
+        "depth": 2
+      }
+    },
+    {
+      "id": "bow",
+      "split": "test",
+      "meta": {
+        "goal": "bow",
+        "depth": 2
+      }
+    },
+    {
+      "id": "bowl",
+      "split": "test",
+      "meta": {
+        "goal": "bowl",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brick_slab",
+      "split": "test",
+      "meta": {
+        "goal": "brick_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brick_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "brick_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brick_wall",
+      "split": "test",
+      "meta": {
+        "goal": "brick_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brown_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "brown_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brown_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "brown_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brown_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "brown_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brown_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "brown_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "brown_wool",
+      "split": "train",
+      "meta": {
+        "goal": "brown_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "bucket",
+      "split": "test",
+      "meta": {
+        "goal": "bucket",
+        "depth": 2
+      }
+    },
+    {
+      "id": "cake",
+      "split": "test",
+      "meta": {
+        "goal": "cake",
+        "depth": 2
+      }
+    },
+    {
+      "id": "campfire",
+      "split": "train",
+      "meta": {
+        "goal": "campfire",
+        "depth": 2
+      }
+    },
+    {
+      "id": "cartography_table",
+      "split": "test",
+      "meta": {
+        "goal": "cartography_table",
+        "depth": 2
+      }
+    },
+    {
+      "id": "cauldron",
+      "split": "test",
+      "meta": {
+        "goal": "cauldron",
+        "depth": 2
+      }
+    },
+    {
+      "id": "chain",
+      "split": "test",
+      "meta": {
+        "goal": "chain",
+        "depth": 2
+      }
+    },
+    {
+      "id": "chest",
+      "split": "train",
+      "meta": {
+        "goal": "chest",
+        "depth": 2
+      }
+    },
+    {
+      "id": "clock",
+      "split": "test",
+      "meta": {
+        "goal": "clock",
+        "depth": 2
+      }
+    },
+    {
+      "id": "compass",
+      "split": "test",
+      "meta": {
+        "goal": "compass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crafting_table",
+      "split": "test",
+      "meta": {
+        "goal": "crafting_table",
+        "depth": 2
+      }
+    },
+    {
+      "id": "creeper_banner_pattern",
+      "split": "test",
+      "meta": {
+        "goal": "creeper_banner_pattern",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_button",
+      "split": "test",
+      "meta": {
+        "goal": "crimson_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_door",
+      "split": "train",
+      "meta": {
+        "goal": "crimson_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_fence",
+      "split": "test",
+      "meta": {
+        "goal": "crimson_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_fence_gate",
+      "split": "test",
+      "meta": {
+        "goal": "crimson_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "crimson_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_sign",
+      "split": "train",
+      "meta": {
+        "goal": "crimson_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_slab",
+      "split": "train",
+      "meta": {
+        "goal": "crimson_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "crimson_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "crimson_trapdoor",
+      "split": "test",
+      "meta": {
+        "goal": "crimson_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "cut_red_sandstone",
+      "split": "test",
+      "meta": {
+        "goal": "cut_red_sandstone",
+        "depth": 2
+      }
+    },
+    {
+      "id": "cut_sandstone",
+      "split": "test",
+      "meta": {
+        "goal": "cut_sandstone",
+        "depth": 2
+      }
+    },
+    {
+      "id": "cyan_dye",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_dye",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_boat",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_boat",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_button",
+      "split": "train",
+      "meta": {
+        "goal": "dark_oak_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_door",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_fence",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_fence_gate",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_sign",
+      "split": "train",
+      "meta": {
+        "goal": "dark_oak_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_slab",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_oak_trapdoor",
+      "split": "test",
+      "meta": {
+        "goal": "dark_oak_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "dark_prismarine",
+      "split": "train",
+      "meta": {
+        "goal": "dark_prismarine",
+        "depth": 2
+      }
+    },
+    {
+      "id": "detector_rail",
+      "split": "test",
+      "meta": {
+        "goal": "detector_rail",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diamond_axe",
+      "split": "test",
+      "meta": {
+        "goal": "diamond_axe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diamond_hoe",
+      "split": "train",
+      "meta": {
+        "goal": "diamond_hoe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diamond_pickaxe",
+      "split": "train",
+      "meta": {
+        "goal": "diamond_pickaxe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diamond_shovel",
+      "split": "test",
+      "meta": {
+        "goal": "diamond_shovel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diamond_sword",
+      "split": "train",
+      "meta": {
+        "goal": "diamond_sword",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diorite_slab",
+      "split": "train",
+      "meta": {
+        "goal": "diorite_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diorite_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "diorite_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "diorite_wall",
+      "split": "train",
+      "meta": {
+        "goal": "diorite_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "end_stone_brick_slab",
+      "split": "test",
+      "meta": {
+        "goal": "end_stone_brick_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "end_stone_brick_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "end_stone_brick_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "end_stone_brick_wall",
+      "split": "test",
+      "meta": {
+        "goal": "end_stone_brick_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "ender_eye",
+      "split": "train",
+      "meta": {
+        "goal": "ender_eye",
+        "depth": 2
+      }
+    },
+    {
+      "id": "fermented_spider_eye",
+      "split": "test",
+      "meta": {
+        "goal": "fermented_spider_eye",
+        "depth": 2
+      }
+    },
+    {
+      "id": "fire_charge",
+      "split": "test",
+      "meta": {
+        "goal": "fire_charge",
+        "depth": 2
+      }
+    },
+    {
+      "id": "fishing_rod",
+      "split": "test",
+      "meta": {
+        "goal": "fishing_rod",
+        "depth": 2
+      }
+    },
+    {
+      "id": "fletching_table",
+      "split": "test",
+      "meta": {
+        "goal": "fletching_table",
+        "depth": 2
+      }
+    },
+    {
+      "id": "flint_and_steel",
+      "split": "train",
+      "meta": {
+        "goal": "flint_and_steel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "flower_banner_pattern",
+      "split": "test",
+      "meta": {
+        "goal": "flower_banner_pattern",
+        "depth": 2
+      }
+    },
+    {
+      "id": "gold_block",
+      "split": "test",
+      "meta": {
+        "goal": "gold_block",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_apple",
+      "split": "test",
+      "meta": {
+        "goal": "golden_apple",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_axe",
+      "split": "train",
+      "meta": {
+        "goal": "golden_axe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_boots",
+      "split": "train",
+      "meta": {
+        "goal": "golden_boots",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_chestplate",
+      "split": "test",
+      "meta": {
+        "goal": "golden_chestplate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_helmet",
+      "split": "test",
+      "meta": {
+        "goal": "golden_helmet",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_hoe",
+      "split": "test",
+      "meta": {
+        "goal": "golden_hoe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_leggings",
+      "split": "test",
+      "meta": {
+        "goal": "golden_leggings",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_pickaxe",
+      "split": "test",
+      "meta": {
+        "goal": "golden_pickaxe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_shovel",
+      "split": "test",
+      "meta": {
+        "goal": "golden_shovel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "golden_sword",
+      "split": "test",
+      "meta": {
+        "goal": "golden_sword",
+        "depth": 2
+      }
+    },
+    {
+      "id": "granite",
+      "split": "train",
+      "meta": {
+        "goal": "granite",
+        "depth": 2
+      }
+    },
+    {
+      "id": "gray_dye",
+      "split": "test",
+      "meta": {
+        "goal": "gray_dye",
+        "depth": 2
+      }
+    },
+    {
+      "id": "green_stained_glass_pane",
+      "split": "train",
+      "meta": {
+        "goal": "green_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "green_wool",
+      "split": "test",
+      "meta": {
+        "goal": "green_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "grindstone",
+      "split": "test",
+      "meta": {
+        "goal": "grindstone",
+        "depth": 2
+      }
+    },
+    {
+      "id": "heavy_weighted_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "heavy_weighted_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_axe",
+      "split": "test",
+      "meta": {
+        "goal": "iron_axe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_bars",
+      "split": "train",
+      "meta": {
+        "goal": "iron_bars",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_block",
+      "split": "train",
+      "meta": {
+        "goal": "iron_block",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_boots",
+      "split": "train",
+      "meta": {
+        "goal": "iron_boots",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_chestplate",
+      "split": "train",
+      "meta": {
+        "goal": "iron_chestplate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_door",
+      "split": "test",
+      "meta": {
+        "goal": "iron_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_helmet",
+      "split": "test",
+      "meta": {
+        "goal": "iron_helmet",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_hoe",
+      "split": "test",
+      "meta": {
+        "goal": "iron_hoe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_leggings",
+      "split": "test",
+      "meta": {
+        "goal": "iron_leggings",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_pickaxe",
+      "split": "test",
+      "meta": {
+        "goal": "iron_pickaxe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_shovel",
+      "split": "test",
+      "meta": {
+        "goal": "iron_shovel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_sword",
+      "split": "test",
+      "meta": {
+        "goal": "iron_sword",
+        "depth": 2
+      }
+    },
+    {
+      "id": "iron_trapdoor",
+      "split": "train",
+      "meta": {
+        "goal": "iron_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "item_frame",
+      "split": "test",
+      "meta": {
+        "goal": "item_frame",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jukebox",
+      "split": "test",
+      "meta": {
+        "goal": "jukebox",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_boat",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_boat",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_button",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_door",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_fence",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_fence_gate",
+      "split": "train",
+      "meta": {
+        "goal": "jungle_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_pressure_plate",
+      "split": "train",
+      "meta": {
+        "goal": "jungle_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_sign",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_slab",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "jungle_trapdoor",
+      "split": "test",
+      "meta": {
+        "goal": "jungle_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "ladder",
+      "split": "test",
+      "meta": {
+        "goal": "ladder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "leather_boots",
+      "split": "test",
+      "meta": {
+        "goal": "leather_boots",
+        "depth": 2
+      }
+    },
+    {
+      "id": "leather_chestplate",
+      "split": "train",
+      "meta": {
+        "goal": "leather_chestplate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "leather_helmet",
+      "split": "test",
+      "meta": {
+        "goal": "leather_helmet",
+        "depth": 2
+      }
+    },
+    {
+      "id": "leather_horse_armor",
+      "split": "test",
+      "meta": {
+        "goal": "leather_horse_armor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "leather_leggings",
+      "split": "test",
+      "meta": {
+        "goal": "leather_leggings",
+        "depth": 2
+      }
+    },
+    {
+      "id": "lever",
+      "split": "train",
+      "meta": {
+        "goal": "lever",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_blue_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_blue_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "light_blue_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_blue_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_blue_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_blue_wool",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_gray_concrete_powder",
+      "split": "train",
+      "meta": {
+        "goal": "light_gray_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_gray_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "light_gray_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_gray_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "light_gray_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_gray_terracotta",
+      "split": "train",
+      "meta": {
+        "goal": "light_gray_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_gray_wool",
+      "split": "test",
+      "meta": {
+        "goal": "light_gray_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "light_weighted_pressure_plate",
+      "split": "train",
+      "meta": {
+        "goal": "light_weighted_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "lime_dye",
+      "split": "test",
+      "meta": {
+        "goal": "lime_dye",
+        "depth": 2
+      }
+    },
+    {
+      "id": "loom",
+      "split": "test",
+      "meta": {
+        "goal": "loom",
+        "depth": 2
+      }
+    },
+    {
+      "id": "magenta_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "magenta_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "magenta_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "magenta_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "magenta_wool",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "magma_cream",
+      "split": "test",
+      "meta": {
+        "goal": "magma_cream",
+        "depth": 2
+      }
+    },
+    {
+      "id": "minecart",
+      "split": "train",
+      "meta": {
+        "goal": "minecart",
+        "depth": 2
+      }
+    },
+    {
+      "id": "mojang_banner_pattern",
+      "split": "test",
+      "meta": {
+        "goal": "mojang_banner_pattern",
+        "depth": 2
+      }
+    },
+    {
+      "id": "mossy_cobblestone_slab",
+      "split": "test",
+      "meta": {
+        "goal": "mossy_cobblestone_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "mossy_cobblestone_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "mossy_cobblestone_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "mossy_cobblestone_wall",
+      "split": "test",
+      "meta": {
+        "goal": "mossy_cobblestone_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "mossy_stone_bricks",
+      "split": "test",
+      "meta": {
+        "goal": "mossy_stone_bricks",
+        "depth": 2
+      }
+    },
+    {
+      "id": "nether_brick_fence",
+      "split": "test",
+      "meta": {
+        "goal": "nether_brick_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "nether_brick_slab",
+      "split": "train",
+      "meta": {
+        "goal": "nether_brick_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "nether_brick_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "nether_brick_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "nether_brick_wall",
+      "split": "test",
+      "meta": {
+        "goal": "nether_brick_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "netherite_ingot",
+      "split": "test",
+      "meta": {
+        "goal": "netherite_ingot",
+        "depth": 2
+      }
+    },
+    {
+      "id": "note_block",
+      "split": "test",
+      "meta": {
+        "goal": "note_block",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_boat",
+      "split": "test",
+      "meta": {
+        "goal": "oak_boat",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_button",
+      "split": "test",
+      "meta": {
+        "goal": "oak_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_door",
+      "split": "test",
+      "meta": {
+        "goal": "oak_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_fence",
+      "split": "test",
+      "meta": {
+        "goal": "oak_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_fence_gate",
+      "split": "test",
+      "meta": {
+        "goal": "oak_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "oak_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_sign",
+      "split": "train",
+      "meta": {
+        "goal": "oak_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_slab",
+      "split": "test",
+      "meta": {
+        "goal": "oak_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "oak_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "oak_trapdoor",
+      "split": "test",
+      "meta": {
+        "goal": "oak_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "orange_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "orange_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "orange_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "orange_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "orange_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "orange_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "orange_terracotta",
+      "split": "train",
+      "meta": {
+        "goal": "orange_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "orange_wool",
+      "split": "test",
+      "meta": {
+        "goal": "orange_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "pink_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "pink_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "pink_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "pink_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "pink_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "pink_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "pink_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "pink_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "pink_wool",
+      "split": "test",
+      "meta": {
+        "goal": "pink_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "piston",
+      "split": "train",
+      "meta": {
+        "goal": "piston",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_blackstone_bricks",
+      "split": "train",
+      "meta": {
+        "goal": "polished_blackstone_bricks",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_blackstone_button",
+      "split": "train",
+      "meta": {
+        "goal": "polished_blackstone_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_blackstone_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "polished_blackstone_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_blackstone_slab",
+      "split": "test",
+      "meta": {
+        "goal": "polished_blackstone_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_blackstone_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "polished_blackstone_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_blackstone_wall",
+      "split": "test",
+      "meta": {
+        "goal": "polished_blackstone_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "polished_diorite",
+      "split": "train",
+      "meta": {
+        "goal": "polished_diorite",
+        "depth": 2
+      }
+    },
+    {
+      "id": "powered_rail",
+      "split": "test",
+      "meta": {
+        "goal": "powered_rail",
+        "depth": 2
+      }
+    },
+    {
+      "id": "prismarine_brick_slab",
+      "split": "test",
+      "meta": {
+        "goal": "prismarine_brick_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "prismarine_brick_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "prismarine_brick_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "prismarine_slab",
+      "split": "test",
+      "meta": {
+        "goal": "prismarine_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "prismarine_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "prismarine_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "prismarine_wall",
+      "split": "test",
+      "meta": {
+        "goal": "prismarine_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "pumpkin_pie",
+      "split": "test",
+      "meta": {
+        "goal": "pumpkin_pie",
+        "depth": 2
+      }
+    },
+    {
+      "id": "purple_dye",
+      "split": "train",
+      "meta": {
+        "goal": "purple_dye",
+        "depth": 2
+      }
+    },
+    {
+      "id": "rail",
+      "split": "test",
+      "meta": {
+        "goal": "rail",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "red_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_nether_brick_slab",
+      "split": "test",
+      "meta": {
+        "goal": "red_nether_brick_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_nether_brick_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "red_nether_brick_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_nether_brick_wall",
+      "split": "train",
+      "meta": {
+        "goal": "red_nether_brick_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_sandstone_slab",
+      "split": "test",
+      "meta": {
+        "goal": "red_sandstone_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_sandstone_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "red_sandstone_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_sandstone_wall",
+      "split": "test",
+      "meta": {
+        "goal": "red_sandstone_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "red_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_stained_glass_pane",
+      "split": "train",
+      "meta": {
+        "goal": "red_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "red_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "red_wool",
+      "split": "test",
+      "meta": {
+        "goal": "red_wool",
+        "depth": 2
+      }
+    },
+    {
+      "id": "redstone_lamp",
+      "split": "train",
+      "meta": {
+        "goal": "redstone_lamp",
+        "depth": 2
+      }
+    },
+    {
+      "id": "redstone_torch",
+      "split": "train",
+      "meta": {
+        "goal": "redstone_torch",
+        "depth": 2
+      }
+    },
+    {
+      "id": "respawn_anchor",
+      "split": "train",
+      "meta": {
+        "goal": "respawn_anchor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "sandstone_slab",
+      "split": "train",
+      "meta": {
+        "goal": "sandstone_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "sandstone_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "sandstone_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "sandstone_wall",
+      "split": "train",
+      "meta": {
+        "goal": "sandstone_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "shears",
+      "split": "test",
+      "meta": {
+        "goal": "shears",
+        "depth": 2
+      }
+    },
+    {
+      "id": "shield",
+      "split": "train",
+      "meta": {
+        "goal": "shield",
+        "depth": 2
+      }
+    },
+    {
+      "id": "skull_banner_pattern",
+      "split": "test",
+      "meta": {
+        "goal": "skull_banner_pattern",
+        "depth": 2
+      }
+    },
+    {
+      "id": "smithing_table",
+      "split": "train",
+      "meta": {
+        "goal": "smithing_table",
+        "depth": 2
+      }
+    },
+    {
+      "id": "smoker",
+      "split": "train",
+      "meta": {
+        "goal": "smoker",
+        "depth": 2
+      }
+    },
+    {
+      "id": "soul_campfire",
+      "split": "train",
+      "meta": {
+        "goal": "soul_campfire",
+        "depth": 2
+      }
+    },
+    {
+      "id": "soul_torch",
+      "split": "test",
+      "meta": {
+        "goal": "soul_torch",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_boat",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_boat",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_button",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_door",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_fence",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_fence_gate",
+      "split": "train",
+      "meta": {
+        "goal": "spruce_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_sign",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_slab",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "spruce_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "spruce_trapdoor",
+      "split": "train",
+      "meta": {
+        "goal": "spruce_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_axe",
+      "split": "test",
+      "meta": {
+        "goal": "stone_axe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_brick_slab",
+      "split": "test",
+      "meta": {
+        "goal": "stone_brick_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_brick_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "stone_brick_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_brick_wall",
+      "split": "test",
+      "meta": {
+        "goal": "stone_brick_wall",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_hoe",
+      "split": "test",
+      "meta": {
+        "goal": "stone_hoe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_pickaxe",
+      "split": "test",
+      "meta": {
+        "goal": "stone_pickaxe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_shovel",
+      "split": "test",
+      "meta": {
+        "goal": "stone_shovel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stone_sword",
+      "split": "train",
+      "meta": {
+        "goal": "stone_sword",
+        "depth": 2
+      }
+    },
+    {
+      "id": "stonecutter",
+      "split": "test",
+      "meta": {
+        "goal": "stonecutter",
+        "depth": 2
+      }
+    },
+    {
+      "id": "target",
+      "split": "train",
+      "meta": {
+        "goal": "target",
+        "depth": 2
+      }
+    },
+    {
+      "id": "torch",
+      "split": "train",
+      "meta": {
+        "goal": "torch",
+        "depth": 2
+      }
+    },
+    {
+      "id": "tripwire_hook",
+      "split": "test",
+      "meta": {
+        "goal": "tripwire_hook",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_button",
+      "split": "test",
+      "meta": {
+        "goal": "warped_button",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_door",
+      "split": "test",
+      "meta": {
+        "goal": "warped_door",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_fence",
+      "split": "train",
+      "meta": {
+        "goal": "warped_fence",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_fence_gate",
+      "split": "train",
+      "meta": {
+        "goal": "warped_fence_gate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_pressure_plate",
+      "split": "test",
+      "meta": {
+        "goal": "warped_pressure_plate",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_sign",
+      "split": "test",
+      "meta": {
+        "goal": "warped_sign",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_slab",
+      "split": "train",
+      "meta": {
+        "goal": "warped_slab",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "warped_stairs",
+        "depth": 2
+      }
+    },
+    {
+      "id": "warped_trapdoor",
+      "split": "test",
+      "meta": {
+        "goal": "warped_trapdoor",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_banner",
+      "split": "train",
+      "meta": {
+        "goal": "white_banner",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_bed",
+      "split": "train",
+      "meta": {
+        "goal": "white_bed",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "white_carpet",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "white_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "white_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "white_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "white_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "white_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "wooden_axe",
+      "split": "test",
+      "meta": {
+        "goal": "wooden_axe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "wooden_hoe",
+      "split": "train",
+      "meta": {
+        "goal": "wooden_hoe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "wooden_pickaxe",
+      "split": "train",
+      "meta": {
+        "goal": "wooden_pickaxe",
+        "depth": 2
+      }
+    },
+    {
+      "id": "wooden_shovel",
+      "split": "test",
+      "meta": {
+        "goal": "wooden_shovel",
+        "depth": 2
+      }
+    },
+    {
+      "id": "wooden_sword",
+      "split": "test",
+      "meta": {
+        "goal": "wooden_sword",
+        "depth": 2
+      }
+    },
+    {
+      "id": "yellow_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "yellow_concrete_powder",
+        "depth": 2
+      }
+    },
+    {
+      "id": "yellow_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "yellow_stained_glass",
+        "depth": 2
+      }
+    },
+    {
+      "id": "yellow_stained_glass_pane",
+      "split": "train",
+      "meta": {
+        "goal": "yellow_stained_glass_pane",
+        "depth": 2
+      }
+    },
+    {
+      "id": "yellow_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "yellow_terracotta",
+        "depth": 2
+      }
+    },
+    {
+      "id": "yellow_wool",
+      "split": "train",
+      "meta": {
+        "goal": "yellow_wool",
+        "depth": 2
+      }
+    }
+  ]
+}

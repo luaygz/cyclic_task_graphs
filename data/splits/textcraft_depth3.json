@@ -1,0 +1,943 @@
+{
+  "benchmark": "textcraft",
+  "variant": "textcraft_depth3",
+  "seed": 42,
+  "instances": [
+    {
+      "id": "activator_rail",
+      "split": "test",
+      "meta": {
+        "goal": "activator_rail",
+        "depth": 3
+      }
+    },
+    {
+      "id": "andesite_slab",
+      "split": "train",
+      "meta": {
+        "goal": "andesite_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "andesite_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "andesite_stairs",
+        "depth": 3
+      }
+    },
+    {
+      "id": "andesite_wall",
+      "split": "test",
+      "meta": {
+        "goal": "andesite_wall",
+        "depth": 3
+      }
+    },
+    {
+      "id": "anvil",
+      "split": "test",
+      "meta": {
+        "goal": "anvil",
+        "depth": 3
+      }
+    },
+    {
+      "id": "beetroot_soup",
+      "split": "test",
+      "meta": {
+        "goal": "beetroot_soup",
+        "depth": 3
+      }
+    },
+    {
+      "id": "black_banner",
+      "split": "test",
+      "meta": {
+        "goal": "black_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "black_bed",
+      "split": "train",
+      "meta": {
+        "goal": "black_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "black_carpet",
+      "split": "train",
+      "meta": {
+        "goal": "black_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "blue_banner",
+      "split": "train",
+      "meta": {
+        "goal": "blue_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "blue_bed",
+      "split": "test",
+      "meta": {
+        "goal": "blue_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "blue_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "blue_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "bookshelf",
+      "split": "test",
+      "meta": {
+        "goal": "bookshelf",
+        "depth": 3
+      }
+    },
+    {
+      "id": "brown_banner",
+      "split": "test",
+      "meta": {
+        "goal": "brown_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "brown_bed",
+      "split": "test",
+      "meta": {
+        "goal": "brown_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "brown_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "brown_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "carrot_on_a_stick",
+      "split": "train",
+      "meta": {
+        "goal": "carrot_on_a_stick",
+        "depth": 3
+      }
+    },
+    {
+      "id": "chest_minecart",
+      "split": "test",
+      "meta": {
+        "goal": "chest_minecart",
+        "depth": 3
+      }
+    },
+    {
+      "id": "chiseled_nether_bricks",
+      "split": "test",
+      "meta": {
+        "goal": "chiseled_nether_bricks",
+        "depth": 3
+      }
+    },
+    {
+      "id": "chiseled_polished_blackstone",
+      "split": "test",
+      "meta": {
+        "goal": "chiseled_polished_blackstone",
+        "depth": 3
+      }
+    },
+    {
+      "id": "chiseled_red_sandstone",
+      "split": "test",
+      "meta": {
+        "goal": "chiseled_red_sandstone",
+        "depth": 3
+      }
+    },
+    {
+      "id": "chiseled_sandstone",
+      "split": "train",
+      "meta": {
+        "goal": "chiseled_sandstone",
+        "depth": 3
+      }
+    },
+    {
+      "id": "chiseled_stone_bricks",
+      "split": "test",
+      "meta": {
+        "goal": "chiseled_stone_bricks",
+        "depth": 3
+      }
+    },
+    {
+      "id": "comparator",
+      "split": "test",
+      "meta": {
+        "goal": "comparator",
+        "depth": 3
+      }
+    },
+    {
+      "id": "crossbow",
+      "split": "test",
+      "meta": {
+        "goal": "crossbow",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cut_red_sandstone_slab",
+      "split": "test",
+      "meta": {
+        "goal": "cut_red_sandstone_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cut_sandstone_slab",
+      "split": "train",
+      "meta": {
+        "goal": "cut_sandstone_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_bed",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_concrete_powder",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "cyan_stained_glass",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_stained_glass_pane",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_terracotta",
+      "split": "train",
+      "meta": {
+        "goal": "cyan_terracotta",
+        "depth": 3
+      }
+    },
+    {
+      "id": "cyan_wool",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_wool",
+        "depth": 3
+      }
+    },
+    {
+      "id": "dark_prismarine_slab",
+      "split": "train",
+      "meta": {
+        "goal": "dark_prismarine_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "dark_prismarine_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "dark_prismarine_stairs",
+        "depth": 3
+      }
+    },
+    {
+      "id": "dispenser",
+      "split": "test",
+      "meta": {
+        "goal": "dispenser",
+        "depth": 3
+      }
+    },
+    {
+      "id": "enchanting_table",
+      "split": "train",
+      "meta": {
+        "goal": "enchanting_table",
+        "depth": 3
+      }
+    },
+    {
+      "id": "end_crystal",
+      "split": "train",
+      "meta": {
+        "goal": "end_crystal",
+        "depth": 3
+      }
+    },
+    {
+      "id": "ender_chest",
+      "split": "test",
+      "meta": {
+        "goal": "ender_chest",
+        "depth": 3
+      }
+    },
+    {
+      "id": "furnace_minecart",
+      "split": "test",
+      "meta": {
+        "goal": "furnace_minecart",
+        "depth": 3
+      }
+    },
+    {
+      "id": "granite_slab",
+      "split": "train",
+      "meta": {
+        "goal": "granite_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "granite_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "granite_stairs",
+        "depth": 3
+      }
+    },
+    {
+      "id": "granite_wall",
+      "split": "test",
+      "meta": {
+        "goal": "granite_wall",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_bed",
+      "split": "test",
+      "meta": {
+        "goal": "gray_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "gray_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_concrete_powder",
+      "split": "train",
+      "meta": {
+        "goal": "gray_concrete_powder",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_stained_glass",
+      "split": "train",
+      "meta": {
+        "goal": "gray_stained_glass",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "gray_stained_glass_pane",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_terracotta",
+      "split": "train",
+      "meta": {
+        "goal": "gray_terracotta",
+        "depth": 3
+      }
+    },
+    {
+      "id": "gray_wool",
+      "split": "train",
+      "meta": {
+        "goal": "gray_wool",
+        "depth": 3
+      }
+    },
+    {
+      "id": "green_banner",
+      "split": "train",
+      "meta": {
+        "goal": "green_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "green_bed",
+      "split": "train",
+      "meta": {
+        "goal": "green_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "green_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "green_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "hopper",
+      "split": "test",
+      "meta": {
+        "goal": "hopper",
+        "depth": 3
+      }
+    },
+    {
+      "id": "jack_o_lantern",
+      "split": "test",
+      "meta": {
+        "goal": "jack_o_lantern",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lantern",
+      "split": "test",
+      "meta": {
+        "goal": "lantern",
+        "depth": 3
+      }
+    },
+    {
+      "id": "light_blue_banner",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "light_blue_bed",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "light_blue_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "light_blue_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "light_gray_banner",
+      "split": "train",
+      "meta": {
+        "goal": "light_gray_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "light_gray_bed",
+      "split": "test",
+      "meta": {
+        "goal": "light_gray_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "light_gray_carpet",
+      "split": "train",
+      "meta": {
+        "goal": "light_gray_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_bed",
+      "split": "test",
+      "meta": {
+        "goal": "lime_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "lime_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_concrete_powder",
+      "split": "train",
+      "meta": {
+        "goal": "lime_concrete_powder",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "lime_stained_glass",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "lime_stained_glass_pane",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_terracotta",
+      "split": "train",
+      "meta": {
+        "goal": "lime_terracotta",
+        "depth": 3
+      }
+    },
+    {
+      "id": "lime_wool",
+      "split": "test",
+      "meta": {
+        "goal": "lime_wool",
+        "depth": 3
+      }
+    },
+    {
+      "id": "magenta_banner",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "magenta_bed",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "magenta_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "magenta_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "magma_block",
+      "split": "train",
+      "meta": {
+        "goal": "magma_block",
+        "depth": 3
+      }
+    },
+    {
+      "id": "map",
+      "split": "test",
+      "meta": {
+        "goal": "map",
+        "depth": 3
+      }
+    },
+    {
+      "id": "mossy_stone_brick_slab",
+      "split": "test",
+      "meta": {
+        "goal": "mossy_stone_brick_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "mossy_stone_brick_stairs",
+      "split": "train",
+      "meta": {
+        "goal": "mossy_stone_brick_stairs",
+        "depth": 3
+      }
+    },
+    {
+      "id": "mossy_stone_brick_wall",
+      "split": "test",
+      "meta": {
+        "goal": "mossy_stone_brick_wall",
+        "depth": 3
+      }
+    },
+    {
+      "id": "mushroom_stew",
+      "split": "test",
+      "meta": {
+        "goal": "mushroom_stew",
+        "depth": 3
+      }
+    },
+    {
+      "id": "netherite_block",
+      "split": "test",
+      "meta": {
+        "goal": "netherite_block",
+        "depth": 3
+      }
+    },
+    {
+      "id": "orange_banner",
+      "split": "train",
+      "meta": {
+        "goal": "orange_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "orange_bed",
+      "split": "test",
+      "meta": {
+        "goal": "orange_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "orange_carpet",
+      "split": "train",
+      "meta": {
+        "goal": "orange_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "painting",
+      "split": "test",
+      "meta": {
+        "goal": "painting",
+        "depth": 3
+      }
+    },
+    {
+      "id": "pink_banner",
+      "split": "train",
+      "meta": {
+        "goal": "pink_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "pink_bed",
+      "split": "test",
+      "meta": {
+        "goal": "pink_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "pink_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "pink_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_andesite",
+      "split": "test",
+      "meta": {
+        "goal": "polished_andesite",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_blackstone_brick_slab",
+      "split": "train",
+      "meta": {
+        "goal": "polished_blackstone_brick_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_blackstone_brick_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "polished_blackstone_brick_stairs",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_blackstone_brick_wall",
+      "split": "test",
+      "meta": {
+        "goal": "polished_blackstone_brick_wall",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_diorite_slab",
+      "split": "train",
+      "meta": {
+        "goal": "polished_diorite_slab",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_diorite_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "polished_diorite_stairs",
+        "depth": 3
+      }
+    },
+    {
+      "id": "polished_granite",
+      "split": "train",
+      "meta": {
+        "goal": "polished_granite",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_bed",
+      "split": "test",
+      "meta": {
+        "goal": "purple_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "purple_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_concrete_powder",
+      "split": "test",
+      "meta": {
+        "goal": "purple_concrete_powder",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_stained_glass",
+      "split": "test",
+      "meta": {
+        "goal": "purple_stained_glass",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_stained_glass_pane",
+      "split": "test",
+      "meta": {
+        "goal": "purple_stained_glass_pane",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_terracotta",
+      "split": "test",
+      "meta": {
+        "goal": "purple_terracotta",
+        "depth": 3
+      }
+    },
+    {
+      "id": "purple_wool",
+      "split": "test",
+      "meta": {
+        "goal": "purple_wool",
+        "depth": 3
+      }
+    },
+    {
+      "id": "rabbit_stew",
+      "split": "test",
+      "meta": {
+        "goal": "rabbit_stew",
+        "depth": 3
+      }
+    },
+    {
+      "id": "red_banner",
+      "split": "test",
+      "meta": {
+        "goal": "red_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "red_bed",
+      "split": "test",
+      "meta": {
+        "goal": "red_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "red_carpet",
+      "split": "test",
+      "meta": {
+        "goal": "red_carpet",
+        "depth": 3
+      }
+    },
+    {
+      "id": "repeater",
+      "split": "train",
+      "meta": {
+        "goal": "repeater",
+        "depth": 3
+      }
+    },
+    {
+      "id": "shulker_box",
+      "split": "train",
+      "meta": {
+        "goal": "shulker_box",
+        "depth": 3
+      }
+    },
+    {
+      "id": "soul_lantern",
+      "split": "test",
+      "meta": {
+        "goal": "soul_lantern",
+        "depth": 3
+      }
+    },
+    {
+      "id": "spectral_arrow",
+      "split": "test",
+      "meta": {
+        "goal": "spectral_arrow",
+        "depth": 3
+      }
+    },
+    {
+      "id": "sticky_piston",
+      "split": "test",
+      "meta": {
+        "goal": "sticky_piston",
+        "depth": 3
+      }
+    },
+    {
+      "id": "tnt_minecart",
+      "split": "test",
+      "meta": {
+        "goal": "tnt_minecart",
+        "depth": 3
+      }
+    },
+    {
+      "id": "trapped_chest",
+      "split": "train",
+      "meta": {
+        "goal": "trapped_chest",
+        "depth": 3
+      }
+    },
+    {
+      "id": "warped_fungus_on_a_stick",
+      "split": "test",
+      "meta": {
+        "goal": "warped_fungus_on_a_stick",
+        "depth": 3
+      }
+    },
+    {
+      "id": "writable_book",
+      "split": "test",
+      "meta": {
+        "goal": "writable_book",
+        "depth": 3
+      }
+    },
+    {
+      "id": "yellow_banner",
+      "split": "test",
+      "meta": {
+        "goal": "yellow_banner",
+        "depth": 3
+      }
+    },
+    {
+      "id": "yellow_bed",
+      "split": "test",
+      "meta": {
+        "goal": "yellow_bed",
+        "depth": 3
+      }
+    },
+    {
+      "id": "yellow_carpet",
+      "split": "train",
+      "meta": {
+        "goal": "yellow_carpet",
+        "depth": 3
+      }
+    }
+  ]
+}

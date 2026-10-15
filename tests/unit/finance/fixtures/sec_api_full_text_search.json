@@ -1,0 +1,38 @@
+{
+  "total": {"value": 3, "relation": "eq"},
+  "filings": [
+    {
+      "accessionNo": "0000320193-24-000123",
+      "cik": "320193",
+      "companyNameLong": "Apple Inc. (AAPL) (CIK 0000320193)",
+      "ticker": "AAPL",
+      "description": "10-K",
+      "formType": "10-K",
+      "type": "10-K",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "filedAt": "2024-11-01"
+    },
+    {
+      "accessionNo": "0000320193-25-000008",
+      "cik": "320193",
+      "companyNameLong": "Apple Inc. (AAPL) (CIK 0000320193)",
+      "ticker": "AAPL",
+      "description": "EXHIBIT 99.1",
+      "formType": "8-K",
+      "type": "EX-99.1",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/a8-kex991q1202512282024.htm",
+      "filedAt": "2025-01-30"
+    },
+    {
+      "accessionNo": "0000320193-25-000057",
+      "cik": "320193",
+      "companyNameLong": "Apple Inc. (AAPL) (CIK 0000320193)",
+      "ticker": "AAPL",
+      "description": null,
+      "formType": "10-Q",
+      "type": "10-Q",
+      "filingUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "filedAt": "2025-05-02"
+    }
+  ]
+}

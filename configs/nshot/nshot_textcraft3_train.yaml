@@ -1,0 +1,12 @@
+# n-shot construction (Sec. 4.1.6): Spec-Cyc on the TextCraft-3 train split; summarize with `ctg nshot build`.
+name: nshot_textcraft3_train
+benchmark: textcraft
+textcraft_depth: 3
+split: train
+controller: spec_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 1

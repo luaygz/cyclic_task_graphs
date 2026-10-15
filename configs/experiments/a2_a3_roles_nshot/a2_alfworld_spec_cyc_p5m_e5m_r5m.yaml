@@ -1,0 +1,13 @@
+# A2/A3 (Fig. 2, Table 15): Spec-Cyc on ALFWorld (valid_unseen) with n-shot, generalist; planner/executor/router = gpt-5-mini/gpt-5-mini/gpt-5-mini.
+name: a2_alfworld_spec_cyc_p5m_e5m_r5m
+benchmark: alfworld
+alfworld_split: valid_unseen
+split: test
+controller: spec_cyc
+executors: generalist
+models:
+  planner: gpt-5-mini
+  executor: gpt-5-mini
+  router: gpt-5-mini
+nshot: data/nshot/alfworld_train.json
+repeats: 3

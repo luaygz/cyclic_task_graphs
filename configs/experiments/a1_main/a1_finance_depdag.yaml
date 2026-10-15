@@ -1,0 +1,11 @@
+# A1 main comparison (Table 2): DepDAG on Finance-Agent, no n-shot, all roles gpt-4o-mini.
+name: a1_finance_depdag
+benchmark: finance_agent
+split: test
+controller: depdag
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 3

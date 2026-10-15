@@ -1,0 +1,357 @@
+{
+  "benchmark": "finance_agent",
+  "variant": "finance_agent",
+  "seed": 42,
+  "instances": [
+    {
+      "id": "q00",
+      "split": "test",
+      "meta": {
+        "question_type": "Market Analysis"
+      }
+    },
+    {
+      "id": "q01",
+      "split": "test",
+      "meta": {
+        "question_type": "Trends"
+      }
+    },
+    {
+      "id": "q02",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    },
+    {
+      "id": "q03",
+      "split": "train",
+      "meta": {
+        "question_type": "Complex Retrieval"
+      }
+    },
+    {
+      "id": "q04",
+      "split": "train",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q05",
+      "split": "test",
+      "meta": {
+        "question_type": "Complex Retrieval"
+      }
+    },
+    {
+      "id": "q06",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q07",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q08",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    },
+    {
+      "id": "q09",
+      "split": "train",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q10",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q11",
+      "split": "train",
+      "meta": {
+        "question_type": "Financial Modeling"
+      }
+    },
+    {
+      "id": "q12",
+      "split": "train",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q13",
+      "split": "test",
+      "meta": {
+        "question_type": "Trends"
+      }
+    },
+    {
+      "id": "q14",
+      "split": "test",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q15",
+      "split": "test",
+      "meta": {
+        "question_type": "Complex Retrieval"
+      }
+    },
+    {
+      "id": "q16",
+      "split": "train",
+      "meta": {
+        "question_type": "Trends"
+      }
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q19",
+      "split": "train",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q21",
+      "split": "train",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q23",
+      "split": "train",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q25",
+      "split": "train",
+      "meta": {
+        "question_type": "Numerical Reasoning"
+      }
+    },
+    {
+      "id": "q26",
+      "split": "train",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q27",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q28",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q29",
+      "split": "train",
+      "meta": {
+        "question_type": "Financial Modeling"
+      }
+    },
+    {
+      "id": "q30",
+      "split": "test",
+      "meta": {
+        "question_type": "Financial Modeling"
+      }
+    },
+    {
+      "id": "q31",
+      "split": "train",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q32",
+      "split": "test",
+      "meta": {
+        "question_type": "Adjustments"
+      }
+    },
+    {
+      "id": "q33",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q34",
+      "split": "test",
+      "meta": {
+        "question_type": "Adjustments"
+      }
+    },
+    {
+      "id": "q35",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q36",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q37",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    },
+    {
+      "id": "q38",
+      "split": "test",
+      "meta": {
+        "question_type": "Qualitative Retrieval"
+      }
+    },
+    {
+      "id": "q39",
+      "split": "train",
+      "meta": {
+        "question_type": "Adjustments"
+      }
+    },
+    {
+      "id": "q40",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q41",
+      "split": "test",
+      "meta": {
+        "question_type": "Market Analysis"
+      }
+    },
+    {
+      "id": "q42",
+      "split": "test",
+      "meta": {
+        "question_type": "Financial Modeling"
+      }
+    },
+    {
+      "id": "q43",
+      "split": "test",
+      "meta": {
+        "question_type": "Quantitative Retrieval"
+      }
+    },
+    {
+      "id": "q44",
+      "split": "test",
+      "meta": {
+        "question_type": "Adjustments"
+      }
+    },
+    {
+      "id": "q45",
+      "split": "train",
+      "meta": {
+        "question_type": "Market Analysis"
+      }
+    },
+    {
+      "id": "q46",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    },
+    {
+      "id": "q47",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    },
+    {
+      "id": "q48",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    },
+    {
+      "id": "q49",
+      "split": "test",
+      "meta": {
+        "question_type": "Beat or Miss"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# A6 exploration (Fig. 4): Gen-Cyc on a 30-game ALFWorld valid_unseen subsample (every 4th of the first 120 games), all roles gpt-4o-mini.
+name: a6_alfworld_gen_cyc
+benchmark: alfworld
+alfworld_split: valid_unseen
+split: test
+controller: gen_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 3
+instances:
+  - valid_unseen__look_at_obj_in_light-AlarmClock-None-DeskLamp-308__trial_T20190908_222917_366542
+  - valid_unseen__look_at_obj_in_light-Book-None-DeskLamp-308__trial_T20190908_020048_814402
+  - valid_unseen__look_at_obj_in_light-Bowl-None-DeskLamp-308__trial_T20190907_133953_562557
+  - valid_unseen__look_at_obj_in_light-Mug-None-DeskLamp-308__trial_T20190908_161733_213242
+  - valid_unseen__look_at_obj_in_light-Pencil-None-DeskLamp-308__trial_T20190908_220604_010430
+  - valid_unseen__pick_and_place_simple-Mug-None-Desk-308__trial_T20190909_210238_431966
+  - valid_unseen__pick_and_place_simple-PepperShaker-None-Drawer-10__trial_T20190906_184021_215264
+  - valid_unseen__pick_and_place_simple-SaltShaker-None-Cabinet-10__trial_T20190906_191445_723170
+  - valid_unseen__pick_and_place_simple-SaltShaker-None-Drawer-10__trial_T20190909_021728_339782
+  - valid_unseen__pick_and_place_simple-Vase-None-Safe-219__trial_T20190908_205204_244321
+  - valid_unseen__pick_and_place_simple-Watch-None-Safe-219__trial_T20190907_074556_124850
+  - valid_unseen__pick_clean_then_place_in_recep-Bowl-None-Cabinet-10__trial_T20190909_061232_368489
+  - valid_unseen__pick_clean_then_place_in_recep-Cloth-None-CounterTop-424__trial_T20190908_114340_674467
+  - valid_unseen__pick_clean_then_place_in_recep-Knife-None-CounterTop-10__trial_T20190909_110347_624008
+  - valid_unseen__pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_221300_362511
+  - valid_unseen__pick_clean_then_place_in_recep-Pan-None-CounterTop-10__trial_T20190908_032543_712058
+  - valid_unseen__pick_clean_then_place_in_recep-SoapBar-None-Cabinet-424__trial_T20190908_214926_337906
+  - valid_unseen__pick_clean_then_place_in_recep-SoapBar-None-CounterTop-424__trial_T20190907_074106_050405
+  - valid_unseen__pick_clean_then_place_in_recep-Spatula-None-Drawer-10__trial_T20190907_080825_222432
+  - valid_unseen__pick_cool_then_place_in_recep-Lettuce-None-CounterTop-10__trial_T20190909_123133_763972
+  - valid_unseen__pick_cool_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_121635_622676
+  - valid_unseen__pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-10__trial_T20190907_183853_958104
+  - valid_unseen__pick_cool_then_place_in_recep-Potato-None-Microwave-10__trial_T20190907_033157_424297
+  - valid_unseen__pick_cool_then_place_in_recep-Tomato-None-Microwave-10__trial_T20190909_102644_926781
+  - valid_unseen__pick_heat_then_place_in_recep-Apple-None-Fridge-10__trial_T20190906_182435_622538
+  - valid_unseen__pick_heat_then_place_in_recep-Cup-None-Cabinet-10__trial_T20190907_083346_800823
+  - valid_unseen__pick_heat_then_place_in_recep-Egg-None-GarbageCan-10__trial_T20190908_113523_123938
+  - valid_unseen__pick_heat_then_place_in_recep-Mug-None-Cabinet-10__trial_T20190909_021247_306737
+  - valid_unseen__pick_heat_then_place_in_recep-Potato-None-GarbageCan-10__trial_T20190907_161745_664033
+  - valid_unseen__pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10__trial_T20190908_225453_272533

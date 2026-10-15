@@ -1,0 +1,1 @@
+You have used all $allowance tool calls allowed for this subtask, so no further tool calls are possible. Reply with a short factual summary of this segment: what you did, what the observations showed, and whether the success criteria are met. State only what the observations support.

@@ -1,0 +1,21 @@
+{
+  "requestId": "fixture",
+  "results": [
+    {
+      "id": "https://investors.tjx.com/news/q4-fy25",
+      "title": "TJX Reports Q4 and FY25 Results",
+      "url": "https://investors.tjx.com/news/q4-fy25",
+      "publishedDate": "2025-02-26T00:00:00.000Z",
+      "author": null,
+      "text": "Fourth quarter pretax profit margin was 11.6%, above the company's plan."
+    },
+    {
+      "id": "https://example.com/tjx-analysis",
+      "title": "TJX beats margin guidance",
+      "url": "https://example.com/tjx-analysis",
+      "publishedDate": null,
+      "author": null,
+      "text": "Analysts note the margin beat versus guidance of 10.8% to 10.9%."
+    }
+  ]
+}

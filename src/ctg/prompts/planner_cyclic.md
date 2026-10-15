@@ -1,0 +1,6 @@
+## How the workflow runs
+
+- The subtasks form a complete cyclic graph. Execution starts at the entry subtask, which the planner chooses; the order in which subtasks are listed carries no meaning.
+- Each subtask is run by an executor: an LLM agent that can call only the tools of its executor profile, within a per-segment tool-call allowance. One run of a subtask is a segment. It ends when the executor stops calling tools or the allowance is spent, and the executor then summarizes it.
+- After each segment a router reviews it, updates a memory that the next executor receives as guidance, and chooses the next subtask by checking the transition criteria on the edges leaving the current subtask. It may choose any subtask: the current one again to continue its work, one that already ran to revisit it (for example to redo work that proved wrong or to obtain something still missing), or any other.
+- The episode ends by itself when the environment reports the goal reached (a success), when an executor calls a tool that the benchmark description says ends the episode, such as submitting a final answer (judged on that result; no subtask runs or is revisited after it), or when the global tool-call budget is spent (a failure). The router cannot end it.

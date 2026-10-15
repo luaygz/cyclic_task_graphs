@@ -1,0 +1,14 @@
+# A5 fault injection (Table 18): Gen-Cyc on TextCraft-2, generalist executors, p = 0.5, n-shot, all roles gpt-4o-mini.
+name: a5_textcraft2_gen_cyc_generalist
+benchmark: textcraft
+textcraft_depth: 2
+split: test
+controller: gen_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+nshot: data/nshot/textcraft_depth2.json
+perturbation: 0.5
+repeats: 3

@@ -1,0 +1,9 @@
+# A1 main comparison (Table 2): ReAct on Finance-Agent, no n-shot, all roles gpt-4o-mini.
+name: a1_finance_react
+benchmark: finance_agent
+split: test
+controller: react
+executors: generalist
+models:
+  executor: gpt-4o-mini
+repeats: 3

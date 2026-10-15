@@ -1,0 +1,12 @@
+# A1 main comparison (Table 2): Gen-Cyc on ALFWorld (valid_unseen), no n-shot, all roles gpt-4o-mini.
+name: a1_alfworld_gen_cyc
+benchmark: alfworld
+alfworld_split: valid_unseen
+split: test
+controller: gen_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 3

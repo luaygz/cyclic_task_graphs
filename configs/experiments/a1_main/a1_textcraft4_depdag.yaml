@@ -1,0 +1,12 @@
+# A1 main comparison (Table 2): DepDAG on TextCraft-4, no n-shot, all roles gpt-4o-mini.
+name: a1_textcraft4_depdag
+benchmark: textcraft
+textcraft_depth: 4
+split: test
+controller: depdag
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 3

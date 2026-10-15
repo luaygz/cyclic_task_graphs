@@ -1,0 +1,12 @@
+# D1 (Table 13): DepDAG-NoRetry on TextCraft-2, no n-shot, all roles gpt-4o-mini.
+name: d1_textcraft2_depdag_noretry
+benchmark: textcraft
+textcraft_depth: 2
+split: test
+controller: depdag_noretry
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 3

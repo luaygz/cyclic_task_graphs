@@ -1,0 +1,45 @@
+# Model presets referenced by experiment configs (models.<role>: <preset>).
+# Prices are USD per million tokens and only feed the spend ledger; check them against
+# https://openai.com/api/pricing when they change. OpenRouter reports the exact cost of each call.
+
+gpt-4o-mini:
+  name: gpt-4o-mini
+  provider: openai
+  input_usd_per_mtok: 0.15
+  cached_input_usd_per_mtok: 0.075
+  output_usd_per_mtok: 0.60
+
+gpt-5-mini:
+  name: gpt-5-mini
+  provider: openai
+  reasoning_effort: low
+  supports_temperature: false
+  input_usd_per_mtok: 0.25
+  cached_input_usd_per_mtok: 0.025
+  output_usd_per_mtok: 2.00
+
+gpt-5-mini-minimal:
+  name: gpt-5-mini
+  provider: openai
+  reasoning_effort: minimal
+  supports_temperature: false
+  input_usd_per_mtok: 0.25
+  cached_input_usd_per_mtok: 0.025
+  output_usd_per_mtok: 2.00
+
+gpt-5:
+  name: gpt-5
+  provider: openai
+  reasoning_effort: low
+  supports_temperature: false
+  input_usd_per_mtok: 1.25
+  cached_input_usd_per_mtok: 0.125
+  output_usd_per_mtok: 10.00
+
+gemini-2.5-pro:
+  name: google/gemini-2.5-pro
+  provider: openrouter
+
+deepseek-v3.1-terminus:
+  name: deepseek/deepseek-v3.1-terminus
+  provider: openrouter

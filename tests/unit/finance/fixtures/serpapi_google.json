@@ -1,0 +1,20 @@
+{
+  "search_metadata": {"id": "fixture", "status": "Success"},
+  "search_parameters": {"engine": "google", "q": "Netflix average revenue per membership 2024"},
+  "search_information": {"organic_results_state": "Results for exact spelling", "total_results": 123000},
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Netflix Q4 2024 Shareholder Letter",
+      "link": "https://ir.netflix.net/files/doc_financials/2024/q4/FINAL-Q4-24-Shareholder-Letter.pdf",
+      "snippet": "Average monthly revenue per paying membership (ARM) was $11.70 in 2024.",
+      "date": "Jan 21, 2025"
+    },
+    {
+      "position": 2,
+      "title": "Netflix 10-K 2024",
+      "link": "https://www.sec.gov/Archives/edgar/data/1065280/000106528025000044/nflx-20241231.htm",
+      "snippet": "Average monthly revenue per paying membership increased 1% year over year."
+    }
+  ]
+}

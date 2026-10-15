@@ -1,0 +1,11 @@
+# B5 model coverage (Table 9): Gen-Cyc on Finance-Agent, planner/router gpt-4o-mini, executor DeepSeek-v3.1-Terminus via OpenRouter, no n-shot.
+name: b5_finance_gen_cyc_deepseek
+benchmark: finance_agent
+split: test
+controller: gen_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: deepseek-v3.1-terminus
+  router: gpt-4o-mini
+repeats: 2

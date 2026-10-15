@@ -1,0 +1,12 @@
+# D1 (Table 13): DepDAG-NoRetry on ALFWorld (valid_unseen), no n-shot, all roles gpt-4o-mini.
+name: d1_alfworld_depdag_noretry
+benchmark: alfworld
+alfworld_split: valid_unseen
+split: test
+controller: depdag_noretry
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+repeats: 3

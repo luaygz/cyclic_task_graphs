@@ -1,0 +1,12 @@
+# A2/A3 (Fig. 2, Table 15): Spec-Cyc on Finance-Agent with n-shot, generalist; planner/executor/router = gpt-4o-mini/gpt-4o-mini/gpt-4o-mini.
+name: a2_finance_spec_cyc_p4o_e4o_r4o
+benchmark: finance_agent
+split: test
+controller: spec_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gpt-4o-mini
+  router: gpt-4o-mini
+nshot: data/nshot/finance_agent.json
+repeats: 3

@@ -1,0 +1,11 @@
+# B5 model coverage (Table 9): Gen-Cyc on Finance-Agent, planner/router gpt-4o-mini, executor Gemini 2.5 Pro via OpenRouter, no n-shot.
+name: b5_finance_gen_cyc_gemini
+benchmark: finance_agent
+split: test
+controller: gen_cyc
+executors: generalist
+models:
+  planner: gpt-4o-mini
+  executor: gemini-2.5-pro
+  router: gpt-4o-mini
+repeats: 2

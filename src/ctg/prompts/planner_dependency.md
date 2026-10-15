@@ -1,0 +1,7 @@
+## How the workflow runs
+
+- The subtasks are listed in dependency order: each relies only on subtasks listed before it. The chain t1 → t2 → … → tn is the dependency graph, and execution starts at t1.
+- Each subtask is run by an executor: an LLM agent that can call only the tools of its executor profile, within a per-segment tool-call allowance. One run of a subtask is a segment. It ends when the executor stops calling tools or the allowance is spent, and the executor then summarizes it.
+- After each segment a router reviews it, updates a memory that the next executor receives as guidance, and chooses the next step by checking the transition criteria on the transitions allowed from the current subtask. It never returns to an earlier subtask, so each subtask must leave everything the later ones need.
+- Retry is $retry in this workflow. With retry enabled, the router can advance to the next subtask in the chain, run the current subtask again, or give up (`give_up`). With retry disabled, it can only advance or give up: each subtask runs as exactly one segment, within a single allowance, and the episode ends after the segment of the last subtask.
+- The episode ends by itself when the environment reports the goal reached (a success), when an executor calls a tool that the benchmark description says ends the episode, such as submitting a final answer (judged on that result; nothing runs after it), or when the global tool-call budget is spent (a failure). `give_up` ends it early, before the goal is reached.

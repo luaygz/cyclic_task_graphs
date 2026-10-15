@@ -1,0 +1,10 @@
+# C token cost (Table 12): ReAct on TextCraft-3 with gpt-5-mini, no n-shot; the baseline for the planner/executor/router = gpt-4o-mini/gpt-5-mini/gpt-5-mini cyclic runs in a2_a3_roles_nshot.
+name: c_textcraft3_react_e5m
+benchmark: textcraft
+textcraft_depth: 3
+split: test
+controller: react
+executors: generalist
+models:
+  executor: gpt-5-mini
+repeats: 3

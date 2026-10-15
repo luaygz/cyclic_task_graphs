@@ -1,0 +1,9 @@
+# B5 model coverage (Table 9): ReAct on Finance-Agent with DeepSeek-v3.1-Terminus via OpenRouter, no n-shot.
+name: b5_finance_react_deepseek
+benchmark: finance_agent
+split: test
+controller: react
+executors: generalist
+models:
+  executor: deepseek-v3.1-terminus
+repeats: 2

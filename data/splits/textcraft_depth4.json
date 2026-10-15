@@ -1,0 +1,95 @@
+{
+  "benchmark": "textcraft",
+  "variant": "textcraft_depth4",
+  "seed": 42,
+  "instances": [
+    {
+      "id": "cyan_banner",
+      "split": "test",
+      "meta": {
+        "goal": "cyan_banner",
+        "depth": 4
+      }
+    },
+    {
+      "id": "gray_banner",
+      "split": "test",
+      "meta": {
+        "goal": "gray_banner",
+        "depth": 4
+      }
+    },
+    {
+      "id": "hopper_minecart",
+      "split": "test",
+      "meta": {
+        "goal": "hopper_minecart",
+        "depth": 4
+      }
+    },
+    {
+      "id": "lectern",
+      "split": "test",
+      "meta": {
+        "goal": "lectern",
+        "depth": 4
+      }
+    },
+    {
+      "id": "lime_banner",
+      "split": "test",
+      "meta": {
+        "goal": "lime_banner",
+        "depth": 4
+      }
+    },
+    {
+      "id": "lodestone",
+      "split": "test",
+      "meta": {
+        "goal": "lodestone",
+        "depth": 4
+      }
+    },
+    {
+      "id": "polished_andesite_slab",
+      "split": "test",
+      "meta": {
+        "goal": "polished_andesite_slab",
+        "depth": 4
+      }
+    },
+    {
+      "id": "polished_andesite_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "polished_andesite_stairs",
+        "depth": 4
+      }
+    },
+    {
+      "id": "polished_granite_slab",
+      "split": "test",
+      "meta": {
+        "goal": "polished_granite_slab",
+        "depth": 4
+      }
+    },
+    {
+      "id": "polished_granite_stairs",
+      "split": "test",
+      "meta": {
+        "goal": "polished_granite_stairs",
+        "depth": 4
+      }
+    },
+    {
+      "id": "purple_banner",
+      "split": "test",
+      "meta": {
+        "goal": "purple_banner",
+        "depth": 4
+      }
+    }
+  ]
+}

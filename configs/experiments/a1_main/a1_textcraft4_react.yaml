@@ -1,0 +1,10 @@
+# A1 main comparison (Table 2): ReAct on TextCraft-4, no n-shot, all roles gpt-4o-mini.
+name: a1_textcraft4_react
+benchmark: textcraft
+textcraft_depth: 4
+split: test
+controller: react
+executors: generalist
+models:
+  executor: gpt-4o-mini
+repeats: 3
